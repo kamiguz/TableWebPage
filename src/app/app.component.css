@@ -1,0 +1,67 @@
+.icon-pracownicy{
+    margin-top: 8rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+h1
+{
+color: white;
+text-align: center;
+margin-top: 1rem;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #F1F6FC
+ }
+
+table, th, td 
+{
+    font: 15px Verdana;
+    white-space: nowrap;
+  
+}
+
+table{
+    overflow:auto;
+    margin-bottom: 0px;
+    border-bottom: none;
+}
+
+th {
+    font-weight:bold;
+    vertical-align: middle;
+    background-color:#E5EEFB;
+   
+}
+
+thead>tr>th {
+    cursor: pointer;
+}
+
+
+.container{
+    text-align: center;
+    overflow: auto;
+}
+
+.white-background{
+    background-color: white;
+}
+
+.pagination-controls /deep/ .ngx-pagination {
+    margin-top: 1rem;
+    position: relative; 
+    right: 2%;
+    font: 15px Verdana; 
+}
+
+.chilid-logo{
+    margin-top: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

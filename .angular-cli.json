@@ -19,6 +19,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
         "styles.css"
       ],
       "scripts": [],
@@ -29,6 +30,7 @@
       }
     }
   ],
+
   "e2e": {
     "protractor": {
       "config": "./protractor.conf.js"
